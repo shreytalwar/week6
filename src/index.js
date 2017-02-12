@@ -44,10 +44,12 @@ var App = React.createClass({
          <Card card= {this.state.hand[2]}  />
          <Card card= {this.state.hand[3]}  />
          <Card card= {this.state.hand[4]}  />
-           <div className="col-sm-2">
+
+      <div className="col-sm-2">
              <h1><a href="#" className="btn btn-success" onClick={this.dealthisdeck}>Deal</a></h1>
-           </div>
-       </div>
+      </div>
+
+      </div>
      </div>
    )
  }
